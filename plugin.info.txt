@@ -1,7 +1,7 @@
 base   tipoftheday
-author i-net software / Gerry Wei§bach
+author i-net software / Gerry WeiÂ§bach
 email  tools@inetsoftware.de
-date   2014-07-15
+date   2015-08-12
 name   Tip of the Day
 desc   Display Tip of the Day - which is a random section of another page.
 url    http://www.dokuwiki.org/plugins:tipoftheday
