@@ -18,13 +18,6 @@ require_once(DOKU_PLUGIN.'action.php');
  */
 class action_plugin_totd extends DokuWiki_Action_Plugin {
 
-    var $supportedModes = array('xhtml', 'i');
-    var $helper = null;
-
-    function action_plugin_totd() {
-        $this->helper = plugin_load('helper', 'include');
-    }
-
     /**
      * plugin should use this method to register its handlers with the dokuwiki's event controller
      */
