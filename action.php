@@ -25,7 +25,7 @@ class action_plugin_totd extends DokuWiki_Action_Plugin {
         $controller->register_hook('AJAX_CALL_UNKNOWN', 'BEFORE', $this, 'ajax_totd_loadnew');
     }
 
-    function ajax_totd_loadnew( &$event ) {
+    function ajax_totd_loadnew( Doku_Event &$event ) {
 
         if ( $event->data != '_totd_loadnew' ) {
             return;
